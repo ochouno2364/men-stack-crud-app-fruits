@@ -15,5 +15,5 @@ const fruitSchema = new mongoose.Schema({
 const Fruit = mongoose.model('Fruit', fruitSchema);
 
 // Export Fruit Model
-module.export = Fruit;  // must import into server.js
+module.exports = Fruit;  // must import into server.js
 
